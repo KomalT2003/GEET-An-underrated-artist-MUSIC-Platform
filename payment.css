@@ -1,0 +1,52 @@
+body{
+    background-color: #20042B;
+}
+
+#entirepage{
+    margin: 40px;
+    color: white;
+}
+
+.headlines{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+#pay-by{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #8E05C2;
+}
+
+.payoption{
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+input[type=text]{
+    /* border: none; */
+    height: 20px;
+    width: 200px;
+    padding: 5px 5px;
+}
+
+#paybutton {
+    margin-left: 800px;
+    background-color: #8E05C2;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #20042B;
+}

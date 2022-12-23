@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #20042B;
+    font-family: 'Poppins';
+}
+
+#entirepage{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar{
+    display: table-cell;
+    vertical-align: top;
+    background-color: black;
+    width: 20%;
+}
+
+#logo{
+    padding: 40px;
+}
+
+.navopt {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navopt a:hover{
+    background-color:#20042B;
+    border: none;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navopt a{
+    text-decoration: none;
+}
+
+#navbar{
+    padding-left: 10px;
+    margin-top: 70px;
+    padding-bottom: 400px;
+    font-size: 30px;
+}
+
+#pagecontent{
+    padding-top: 30px;
+    padding-left: 30px;
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-right: 20px;
+    color: white;
+}
+
+#title{
+    font-size: 30px;
+}
+
+.stats{
+    font-size: 25px;
+}
+
+#songsuploaded{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgb(191, 136, 206);
+    border-radius: 40px;
+    color: black;
+}
+
+#name{
+    
+    color:beige;
+    margin-left: 20px;
+}

@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins';
+}
+#layout{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#sidebar{
+ 
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    margin:none;
+    width:20%;
+    height:150vh;
+    
+}
+.nav{
+    font-family:'Poppins';
+    color:white;
+    font-size: 20px;
+    background-color:black;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    text-align: left;
+    
+}
+
+.nav a:link{
+    color:white;
+    text-decoration: none;
+}
+.nav a:visited{
+    color:white;
+    text-decoration: none;
+
+}
+.nav a:hover{
+    background-color: #20042B ;
+   
+    border-radius: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    border:none;
+}
+
+
+#content{
+    display:flex;
+    flex-direction: column;
+    background-color: #20042B;
+    width:100%;
+    height:auto;
+    color:white;
+
+}
+
+#content h1{
+    font-size: 60px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+ 
+#top{
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#artist img{
+    margin-top: 40px;
+   
+    margin-left: 70px;
+    margin-right: auto;
+    opacity: 70%;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+   
+}
+#podcast img{
+    margin-top: 40px;
+    margin-left: 70px;
+    
+    margin-right: auto;
+    opacity: 70%;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#t1{
+    position: absolute;
+    left: 27%;
+    bottom:20%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#t2{
+    position: absolute;
+    left: 27%;
+    bottom:20%;
+    top:120%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
